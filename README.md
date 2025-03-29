@@ -1,3 +1,3 @@
-# create_account !
-# create_account !
-# create_account
+# create_account and login !
+
+its full secure useing PDO pssword_hash clear_inputs .....
