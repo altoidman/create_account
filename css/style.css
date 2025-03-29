@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 🔹 تحسين الـ Header */
+header {
+    background-color: #ececec; 
+    border-bottom: 2px solid #494949;
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 17px 17px;
+}
+
+/* 🔹 تحسين أزرار تسجيل الدخول والتسجيل */
+.login-a a {
+    color: #ffffff;
+    text-decoration: none;
+    background: #2b59ff;
+    border-radius: 7px;
+    padding: 8px 12px;
+    font-size: 17px;
+    margin-left: 10px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.login-a a:hover {
+    background: #6b6bea;
+    transform: scale(1.05);
+}
+
+/* 🔹 تحسين تنسيق النموذج */
+.form {
+    margin: 70px auto;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    background: white;
+}
+
+/* 🔹 جعل النموذج متجاوبًا مع الشاشات الصغيرة */
+@media screen and (max-width: 700px) {
+    .form {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+/* 🔹 تحسين تنسيق حقول الإدخال */
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 🔹 تحسين زر التسجيل */
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4f9ec0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form button:hover {
+    background-color: #2b91bd;
+    transform: scale(1.05);
+}
+
+/* 🔹 تحسين تنسيق الـ Footer */
+footer {
+    background-color: #5d5d5d;
+    color: #fffdfd;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 17px 17px 0px 0px;
+    border-top: 2px solid #494949;
+    font-size: 14px;
+    border-top: 2px solid #494949;
+
+}
+
+
