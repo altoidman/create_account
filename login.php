@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password']; // لا يتم تنظيف كلمة المرور لأننا نحتاجها كما هي للتحقق من التجزئة
 
     // إعداد الاستعلام للتحقق مما إذا كان المستخدم موجودًا في قاعدة البيانات
-    $stmt = $conn->prepare("SELECT username, password FROM users WHERE username = :username");
+    $stmt = $conn->prepare("SELECT password FROM users WHERE username = :username");
     $stmt->bindParam(":username", $username);
     $stmt->execute();
     
