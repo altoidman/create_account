@@ -9,7 +9,7 @@
 -- Table structure for table `users`
 --
 
-CREATE TABLE `users` (
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL,
   `username` varchar(40) NOT NULL,
   `password` varchar(190) NOT NULL,
